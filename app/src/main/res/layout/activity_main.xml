@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/employees_Header"
+        android:textSize="@dimen/header_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="407dp"
+        android:layout_height="@dimen/et_height"
+        android:inputType="text"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        android:hint="@string/name"
+        android:textSize="@dimen/normaltxt_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_age"
+        android:layout_width="407dp"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="180dp"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textSize="@dimen/normaltxt_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_salary"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginTop="264dp"
+        android:hint="@string/salary"
+        android:textSize="@dimen/normaltxt_size"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_jobtitle"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/et_height"
+        android:layout_marginTop="356dp"
+        android:textSize="@dimen/normaltxt_size"
+        android:hint="@string/jobtitle"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_show_employees"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_hieght"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/showEmployees"
+        android:textSize="@dimen/btntextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_hieght"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="136dp"
+        android:text="@string/register"
+        android:textSize="@dimen/btntextsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

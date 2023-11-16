@@ -1,0 +1,12 @@
+<resources>
+      <dimen name="fab_margin">16dp</dimen>
+    <dimen name="lvdividerHeight">10dp</dimen>
+    <dimen name="dropdown_width">56</dimen>
+    <dimen name="dropdown_height">56</dimen>
+    <dimen name="et_height">75dp</dimen>
+    <dimen name="header_size">40sp</dimen>
+    <dimen name="normaltxt_size">30sp</dimen>
+    <dimen name="btntextsize">23sp</dimen>
+    <dimen name="btn_width">225dp</dimen>
+    <dimen name="btn_hieght">50dp</dimen>
+</resources>
